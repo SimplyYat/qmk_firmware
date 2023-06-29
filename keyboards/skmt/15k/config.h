@@ -19,7 +19,7 @@
 // #define NO_ACTION_TAPPING
 // #define NO_ACTION_ONESHOT
 
-#define RGBLED_NUM 4                    // Number of LEDs
+#define RGBLED_NUM 38                   // Number of LEDs
 #define RGB_MATRIX_LED_COUNT RGBLED_NUM // Number of LEDs
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 255

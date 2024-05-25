@@ -9,10 +9,10 @@
         "device_version": "0.0.1"
     },
     "split": {
-        "soft_serial_pin": "D0"
+        "soft_serial_pin": "GP0"
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "layouts": {
         "LAYOUT_5x7": {
             "layout": [
@@ -46,6 +46,7 @@
                 {"x": 3, "y": 3},
                 {"x": 4, "y": 3},
                 {"x": 5, "y": 3},
+                {"x": 6, "y": 3},
 
                 {"x": 0, "y": 4},
                 {"x": 1, "y": 4},
@@ -85,6 +86,7 @@
                 {"x": 15, "y": 2},
                 {"x": 16, "y": 2},
 
+                {"x": 10, "y": 3},
                 {"x": 11, "y": 3},
                 {"x": 12, "y": 3},
                 {"x": 13, "y": 3},

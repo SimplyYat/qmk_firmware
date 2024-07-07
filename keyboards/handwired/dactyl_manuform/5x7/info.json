@@ -17,7 +17,9 @@
         "rows": ["GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9"]
     },
     "diode_direction": "COL2ROW",
-    "split": {},
+    "split": {
+        "enabled": true
+    },
     "processor": "RP2040",
     "bootloader": "rp2040",
     "layouts": {
